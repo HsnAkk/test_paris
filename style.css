@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+body {
+    background: #e5f4f9;
+    font-family: 'Times New Roman';
+}
+
+h1, h3, h4 {
+    font-family: 'Courgette', cursive;
+}
+h1 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 30px;
+}
+
+p {
+    line-height: 30px;
+}
+
+/* p:nth-of-type() > span {
+    color: red;
+} */
+
+.first > span {
+    color: red;
+}
+
+
+
+
+/* .second > span {
+    font-weight: bold;
+}
+.second span:nth-of-type(odd){
+    color: dodgerblue;
+}
+
+.second span:nth-of-type(even){
+    color: tomato;
+} */
+
+p:nth-of-type(2) > span {
+    font-weight: bold;
+}
+
+p:nth-of-type(2) span:nth-of-type(odd){
+    color: dodgerblue;
+}
+
+p:nth-of-type(2) span:nth-of-type(even){
+    color: tomato;
+}
+
+
+
+/* .second span:nth-of-type(2), .second span:nth-of-type(4){
+    color: tomato;
+} */
+
+
+.third > span {
+    color: fuchsia;
+    font-weight: bold;
+}
+
+/* .underline {
+    text-decoration: underline wavy;
+} */
+
+/* .third > span:first-of-type {
+    text-decoration: underline wavy;
+}
+.third > span:last-of-type {
+    text-decoration: underline wavy;
+} */
+
+p:nth-of-type(3) > span:nth-of-type(1), 
+p:nth-of-type(3) > span:nth-of-type(7)
+{
+    text-decoration: underline wavy;
+}
+
+mark {
+    text-transform: uppercase;
+}
+
+h4:nth-of-type(2) mark {
+    background: orange;
+}
+
+ol {
+    list-style-type: '\1F449';
+    /* margin: -20px; */
+}
+ol li {
+    padding-left: 20px;
+}
+
+ul {
+    /* list-style-type: '\2714'; */
+    /* margin: -20px; */
+}
+ul li {
+    padding-left: 20px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: green;
+}
+
+/* .fourth em, .fourth i {
+    font-weight: bold;
+} */
+
+/* p:nth-of-type(4) em, p:last-of-type i {
+    font-weight: bold;
+} */
